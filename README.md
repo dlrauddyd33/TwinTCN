@@ -138,7 +138,7 @@ For Google Colab:
 ### Key Components
 - **TCN Blocks:** Dilated causal convolutions with residual connections
 - **Levels:** 6 (default), dilation rates: 1, 2, 4, 8, 16, 32
-- **Receptive Field:** ~127 time steps
+- **Receptive Field:** **253 time steps** for k=3, L=6 (two convs per block)
 - **Hidden Dimension:** 64 (default)
 
 ## Training Configuration
