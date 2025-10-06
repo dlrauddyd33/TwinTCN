@@ -1,4 +1,4 @@
-# Battery Management System (BMS) - Anomaly Detection
+# TwinTCN: Correlation-Gated Temporal Convolutions with Twin Encoders
 
 TCN-based Autoencoder for battery anomaly detection using multi-brand vehicle data.
 
@@ -9,7 +9,7 @@ This project implements a Temporal Convolutional Network (TCN) autoencoder for d
 ## Project Structure
 
 ```
-Code_for_BMS/
+TwinTCN/
 ├── Dataset_split.py          # Data preprocessing and splitting
 ├── utils.py                  # Utility functions (seed, normalization, etc.)
 ├── dataset.py                # PyTorch Dataset class
